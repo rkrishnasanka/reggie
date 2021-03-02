@@ -1,4 +1,4 @@
-# Generated from ./reggie.g4 by ANTLR 4.9.1
+# Generated from /Users/krishna/CIDAR/reggie/reggie.g4 by ANTLR 4.9
 # encoding: utf-8
 from antlr4 import *
 from io import StringIO
@@ -131,7 +131,7 @@ class reggieParser ( Parser ):
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
-        self.checkVersion("4.9.1")
+        self.checkVersion("4.9")
         self._interp = ParserATNSimulator(self, self.atn, self.decisionsToDFA, self.sharedContextCache)
         self._predicates = None
 
@@ -139,7 +139,6 @@ class reggieParser ( Parser ):
 
 
     class GraphContext(ParserRuleContext):
-        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -207,7 +206,6 @@ class reggieParser ( Parser ):
 
 
     class GraphstatementContext(ParserRuleContext):
-        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -278,7 +276,6 @@ class reggieParser ( Parser ):
 
 
     class StatementmodifierContext(ParserRuleContext):
-        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -352,7 +349,6 @@ class reggieParser ( Parser ):
 
 
     class BasestatementContext(ParserRuleContext):
-        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -427,7 +423,6 @@ class reggieParser ( Parser ):
 
 
     class SubgraphContext(ParserRuleContext):
-        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -502,7 +497,6 @@ class reggieParser ( Parser ):
 
 
     class VertexContext(ParserRuleContext):
-        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -594,7 +588,6 @@ class reggieParser ( Parser ):
 
 
     class ColoringfilterContext(ParserRuleContext):
-        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -661,7 +654,6 @@ class reggieParser ( Parser ):
 
 
     class StructuralvertexpatternContext(ParserRuleContext):
-        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -733,7 +725,6 @@ class reggieParser ( Parser ):
 
 
     class IntmodifierContext(ParserRuleContext):
-        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -784,7 +775,6 @@ class reggieParser ( Parser ):
 
 
     class StarmodifierContext(ParserRuleContext):
-        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -829,7 +819,6 @@ class reggieParser ( Parser ):
 
 
     class PlusmodifierContext(ParserRuleContext):
-        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -874,7 +863,6 @@ class reggieParser ( Parser ):
 
 
     class StructuralidContext(ParserRuleContext):
-        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -930,7 +918,6 @@ class reggieParser ( Parser ):
 
 
     class LabelfilterContext(ParserRuleContext):
-        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -1023,7 +1010,6 @@ class reggieParser ( Parser ):
 
 
     class LabelContext(ParserRuleContext):
-        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -1070,7 +1056,6 @@ class reggieParser ( Parser ):
 
 
     class Vertex2vertexContext(ParserRuleContext):
-        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -1141,7 +1126,6 @@ class reggieParser ( Parser ):
 
 
     class EdgeContext(ParserRuleContext):
-        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
