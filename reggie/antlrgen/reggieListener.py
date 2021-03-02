@@ -1,4 +1,4 @@
-# Generated from /Users/krishna/CIDAR/reggie/reggie.g4 by ANTLR 4.9
+# Generated from ./reggie.g4 by ANTLR 4.9.1
 from antlr4 import *
 if __name__ is not None and "." in __name__:
     from .reggieParser import reggieParser
@@ -8,12 +8,48 @@ else:
 # This class defines a complete listener for a parse tree produced by reggieParser.
 class reggieListener(ParseTreeListener):
 
-    # Enter a parse tree produced by reggieParser#reggie.
-    def enterReggie(self, ctx:reggieParser.ReggieContext):
+    # Enter a parse tree produced by reggieParser#graph.
+    def enterGraph(self, ctx:reggieParser.GraphContext):
         pass
 
-    # Exit a parse tree produced by reggieParser#reggie.
-    def exitReggie(self, ctx:reggieParser.ReggieContext):
+    # Exit a parse tree produced by reggieParser#graph.
+    def exitGraph(self, ctx:reggieParser.GraphContext):
+        pass
+
+
+    # Enter a parse tree produced by reggieParser#graphstatement.
+    def enterGraphstatement(self, ctx:reggieParser.GraphstatementContext):
+        pass
+
+    # Exit a parse tree produced by reggieParser#graphstatement.
+    def exitGraphstatement(self, ctx:reggieParser.GraphstatementContext):
+        pass
+
+
+    # Enter a parse tree produced by reggieParser#statementmodifier.
+    def enterStatementmodifier(self, ctx:reggieParser.StatementmodifierContext):
+        pass
+
+    # Exit a parse tree produced by reggieParser#statementmodifier.
+    def exitStatementmodifier(self, ctx:reggieParser.StatementmodifierContext):
+        pass
+
+
+    # Enter a parse tree produced by reggieParser#basestatement.
+    def enterBasestatement(self, ctx:reggieParser.BasestatementContext):
+        pass
+
+    # Exit a parse tree produced by reggieParser#basestatement.
+    def exitBasestatement(self, ctx:reggieParser.BasestatementContext):
+        pass
+
+
+    # Enter a parse tree produced by reggieParser#subgraph.
+    def enterSubgraph(self, ctx:reggieParser.SubgraphContext):
+        pass
+
+    # Exit a parse tree produced by reggieParser#subgraph.
+    def exitSubgraph(self, ctx:reggieParser.SubgraphContext):
         pass
 
 
@@ -26,6 +62,15 @@ class reggieListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by reggieParser#coloringfilter.
+    def enterColoringfilter(self, ctx:reggieParser.ColoringfilterContext):
+        pass
+
+    # Exit a parse tree produced by reggieParser#coloringfilter.
+    def exitColoringfilter(self, ctx:reggieParser.ColoringfilterContext):
+        pass
+
+
     # Enter a parse tree produced by reggieParser#structuralvertexpattern.
     def enterStructuralvertexpattern(self, ctx:reggieParser.StructuralvertexpatternContext):
         pass
@@ -35,12 +80,30 @@ class reggieListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by reggieParser#structuraledgepatther.
-    def enterStructuraledgepatther(self, ctx:reggieParser.StructuraledgepattherContext):
+    # Enter a parse tree produced by reggieParser#intmodifier.
+    def enterIntmodifier(self, ctx:reggieParser.IntmodifierContext):
         pass
 
-    # Exit a parse tree produced by reggieParser#structuraledgepatther.
-    def exitStructuraledgepatther(self, ctx:reggieParser.StructuraledgepattherContext):
+    # Exit a parse tree produced by reggieParser#intmodifier.
+    def exitIntmodifier(self, ctx:reggieParser.IntmodifierContext):
+        pass
+
+
+    # Enter a parse tree produced by reggieParser#starmodifier.
+    def enterStarmodifier(self, ctx:reggieParser.StarmodifierContext):
+        pass
+
+    # Exit a parse tree produced by reggieParser#starmodifier.
+    def exitStarmodifier(self, ctx:reggieParser.StarmodifierContext):
+        pass
+
+
+    # Enter a parse tree produced by reggieParser#plusmodifier.
+    def enterPlusmodifier(self, ctx:reggieParser.PlusmodifierContext):
+        pass
+
+    # Exit a parse tree produced by reggieParser#plusmodifier.
+    def exitPlusmodifier(self, ctx:reggieParser.PlusmodifierContext):
         pass
 
 
@@ -62,6 +125,15 @@ class reggieListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by reggieParser#label.
+    def enterLabel(self, ctx:reggieParser.LabelContext):
+        pass
+
+    # Exit a parse tree produced by reggieParser#label.
+    def exitLabel(self, ctx:reggieParser.LabelContext):
+        pass
+
+
     # Enter a parse tree produced by reggieParser#vertex2vertex.
     def enterVertex2vertex(self, ctx:reggieParser.Vertex2vertexContext):
         pass
@@ -77,24 +149,6 @@ class reggieListener(ParseTreeListener):
 
     # Exit a parse tree produced by reggieParser#edge.
     def exitEdge(self, ctx:reggieParser.EdgeContext):
-        pass
-
-
-    # Enter a parse tree produced by reggieParser#labelledarraw.
-    def enterLabelledarraw(self, ctx:reggieParser.LabelledarrawContext):
-        pass
-
-    # Exit a parse tree produced by reggieParser#labelledarraw.
-    def exitLabelledarraw(self, ctx:reggieParser.LabelledarrawContext):
-        pass
-
-
-    # Enter a parse tree produced by reggieParser#edgelabel.
-    def enterEdgelabel(self, ctx:reggieParser.EdgelabelContext):
-        pass
-
-    # Exit a parse tree produced by reggieParser#edgelabel.
-    def exitEdgelabel(self, ctx:reggieParser.EdgelabelContext):
         pass
 
 
