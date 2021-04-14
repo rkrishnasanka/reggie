@@ -34,7 +34,7 @@ class MatchPattern:
         return self._semantic_template
 
     def __parse_pattern(self, pattern) -> None:
-        # TODO - Implement the reggie parser walker, execution of the compiler
+        # Implement the reggie parser walker, execution of the compiler
         # Step 1 - Parse the thing
         # Step 2 - Save the structural Template
         # Step 3 - Save the semantic template
@@ -42,11 +42,18 @@ class MatchPattern:
         lexer = reggieLexer(istream)
         stream = CommonTokenStream(lexer)
         parser = reggieParser(stream)
-        tree = parser.skeleton()
+
+        syntax_errors = parser.getNumberOfSyntaxErrors()
+        if syntax_errors > 0:
+            raise Exception(
+                "Could not parse the match expression, interrupting parsing flow"
+            )
+
+        tree = parser.graph()
         walker = ParseTreeWalker()
         listener = MatchPatternGenerator()
 
         walker.walk(listener, tree)
 
-        self._structural_template = DiGraph()
-        raise NotImplementedError("Implement the parsing execution")
+        self._structural_template = listener.structural_template
+        self._semantic_template = listener.semantic_template

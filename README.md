@@ -171,6 +171,7 @@ TODO - Figure out how to control sequences work from an LFR file. Also figure ou
 
 ```
 {
+    v1 { "DISTRIBUTE_OR", "or_1" },
     v1 -> vo1 { "DISTRIBUTE_OR", "or_1" },
     v1 -> vo2 { "DISTRIBUTE_OR", "or_1" }
 }
@@ -180,6 +181,7 @@ TODO - Figure out how to control sequences work from an LFR file. Also figure ou
 
 ```
 {
+    v1 { "DISTRIBUTE_OR", "or_1" },
     v1 -> vo1 { "DISTRIBUTE_OR", "or_1" },
     v1 -> vo2 { "DISTRIBUTE_OR", "or_1" },
     v1 -> vo3 { "DISTRIBUTE_OR", "or_1" },
@@ -191,6 +193,7 @@ TODO - Figure out how to control sequences work from an LFR file. Also figure ou
 
 ```
 {
+    v1 { "DISTRIBUTE_OR", "or_1" },
     v1 -> vo1 { "DISTRIBUTE_OR", "or_1" },
     v1 -> vo2 { "DISTRIBUTE_OR", "or_1" },
     v1 -> vo3 { "DISTRIBUTE_OR", "or_1" },
@@ -207,6 +210,7 @@ TODO - Figure out how to control sequences work from an LFR file. Also figure ou
 
 ```
 {
+    v1 { "DISTRIBUTE_OR", "or_1" },
     v1 -> vo1 { "DISTRIBUTE_OR", "or_1" },
     v1 -> vo2 { "DISTRIBUTE_OR", "or_1" },
     v1 -> vo3 { "DISTRIBUTE_OR", "or_1" },
@@ -231,6 +235,7 @@ TODO - Figure out how to control sequences work from an LFR file. Also figure ou
 
 ```
 {
+    v1 { "DISTRIBUTE_OR", "or_1" },
     v1 -> vo1 { "DISTRIBUTE_OR", "or_1" },
     v1 -> vo2 { "DISTRIBUTE_OR", "or_1" },
     v1 -> vo3 { "DISTRIBUTE_OR", "or_1" },
@@ -271,6 +276,7 @@ TODO - Figure out how to control sequences work from an LFR file. Also figure ou
 ### 2->1
 ```
 {
+    v1 { "DISTRIBUTE_OR", "or_1" },
     vi1 { "DISTRIBUTE_OR", "or_1" } -> v1,
     vi2 { "DISTRIBUTE_OR", "or_1" } -> v1
 }
@@ -279,6 +285,7 @@ TODO - Figure out how to control sequences work from an LFR file. Also figure ou
 ### 4->1
 ```
 {
+    v1 { "DISTRIBUTE_OR", "or_1" },
     vi1 { "DISTRIBUTE_OR", "or_1" } -> v1,
     vi2 { "DISTRIBUTE_OR", "or_1" } -> v1,
     vi3 { "DISTRIBUTE_OR", "or_1" } -> v1,
@@ -289,6 +296,7 @@ TODO - Figure out how to control sequences work from an LFR file. Also figure ou
 ### 8->1
 ```
 {
+    v1 { "DISTRIBUTE_OR", "or_1" },
     vi1 { "DISTRIBUTE_OR", "or_1" } -> v1,
     vi2 { "DISTRIBUTE_OR", "or_1" } -> v1,
     vi3 { "DISTRIBUTE_OR", "or_1" } -> v1,
@@ -303,6 +311,7 @@ TODO - Figure out how to control sequences work from an LFR file. Also figure ou
 ### 16->1
 ```
 {
+    v1 { "DISTRIBUTE_OR", "or_1" },
     vi1 { "DISTRIBUTE_OR", "or_1" } -> v1,
     vi2 { "DISTRIBUTE_OR", "or_1" } -> v1,
     vi3 { "DISTRIBUTE_OR", "or_1" } -> v1,
@@ -325,6 +334,7 @@ TODO - Figure out how to control sequences work from an LFR file. Also figure ou
 ### 32->1
 ```
 {
+    v1 { "DISTRIBUTE_OR", "or_1" },
     vi1 { "DISTRIBUTE_OR", "or_1" } -> v1,
     vi2 { "DISTRIBUTE_OR", "or_1" } -> v1,
     vi3 { "DISTRIBUTE_OR", "or_1" } -> v1,
